@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#004000"
+        android:gravity="center"
+        android:text="Quản Lý Máy Tính"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnInsertAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Hãng Máy Tính" />
+
+    <Button
+        android:id="@+id/buttonShowAuthorList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sách hãng " />
+
+    <Button
+        android:id="@+id/buttonInsertBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Quản lý máy tính" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lê Văn Thắng - 2050531200336"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"/>
+</LinearLayout>
